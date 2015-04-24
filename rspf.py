@@ -5,7 +5,7 @@ import socket
 import dns.resolver
 
 if len(sys.argv) < 2:
-    sys.stderr.write('Usage: sys.argv[0] domain\n')
+    sys.stderr.write("Usage: %s domain\n" % sys.argv[0])
     sys.exit(1)
 
 domain=sys.argv[1]
